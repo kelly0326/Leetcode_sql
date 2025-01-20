@@ -1,3 +1,4 @@
+# Write your MySQL query statement below
 SELECT 
     id,
     MAX(CASE WHEN month = 'Jan' THEN revenue END) AS Jan_Revenue,
