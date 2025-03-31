@@ -101,7 +101,6 @@ where cnt1=1 and cnt!=1;
 # SQL number 1: Primary key is EVERYTHING!
 # ONLY the Primary key is Unique! (when you do join the tables,
 # you MUST use the primary key!)
-# when you group by, 
 
 ---
 | lat  | lon  | count(*) |

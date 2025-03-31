@@ -21,3 +21,15 @@ from table3
 group by id
 order by num desc
 limit 1;
+
+# table3
+---
+| id | num |
+| -- | --- |
+| 1  | 2   |
+| 2  | 1   |
+| 3  | 1   |
+| 2  | 1   |
+| 3  | 2   |
+| 4  | 1   |
+---
