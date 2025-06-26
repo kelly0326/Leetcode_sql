@@ -1,4 +1,4 @@
-# Solution
+# SQL Solution
 SELECT patient_id, patient_name, conditions
 FROM Patients
 WHERE conditions LIKE 'DIAB1%'     -- starts with DIAB1 *
