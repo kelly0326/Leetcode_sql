@@ -1,4 +1,4 @@
-# Write your MySQL query statement below
+# SQL Solution
 -- Method 1
 SELECT COALESCE(
     (SELECT MAX(salary) FROM Employee WHERE salary < (SELECT MAX(salary) FROM Employee)),
