@@ -1,4 +1,4 @@
-# SQL Solution by Shu
+# SQL Solution by Kelly
 -- Method 1
 SELECT COALESCE(
     (SELECT MAX(salary) FROM Employee WHERE salary < (SELECT MAX(salary) FROM Employee)),
